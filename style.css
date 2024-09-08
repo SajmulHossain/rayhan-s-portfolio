@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --main-color: #7844e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", system-ui;
+}
+
+header {
+    background-color: darkblue;
+    padding: 30px 0;
+    color: white;
+}
+
+header .nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    margin: 20px auto;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    margin: 30px auto;
+}
+
+.banner .text,
+.banner .banner-photo {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.banner .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .text h1 {
+    margin: 10px 0;
+    color: var(--main-color);
+}
+
+.banner-photo {
+    display: flex;
+    justify-content: end;
+}
+
+.banner-photo img {
+    width: 60%;
+    border-radius: 50%;
+}
